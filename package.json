@@ -1,0 +1,16 @@
+{
+  "name": "webserver-1.0",
+  "version": "1.0.0",
+  "description": "\"node test server\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Celso Rodrigues",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "gulp": "^3.9.1",
+    "mongoose": "^4.4.6"
+  }
+}
