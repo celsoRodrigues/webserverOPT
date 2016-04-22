@@ -2,15 +2,27 @@
   "name": "webserver-1.0",
   "version": "1.0.0",
   "description": "\"node test server\"",
-  "main": "index.js",
+  "main": "./public/js/app.min.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node ./js/srv.js"
   },
   "author": "Celso Rodrigues",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.15.0",
+    "colors": "^1.1.2",
     "express": "^4.13.4",
     "gulp": "^3.9.1",
+    "gulp-open": "^1.0.0",
+    "gulp-uglify": "^1.5.3",
     "mongoose": "^4.4.6"
+  },
+  "devDependencies": {
+    "gulp-cssmin": "^0.1.7",
+    "gulp-less": "^3.0.5",
+    "gulp-livereload": "^3.8.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2"
   }
 }
